@@ -27,7 +27,6 @@
     "doc": "typedoc src --mode modules --target es6 --mode file --theme minimal --out doc-ts && opn doc-ts/index.html",
     "commit": "git-cz",
     "commitmsg": "validate-commit-msg",
-    "precommit": "yarn lint && yarn commitmsg",
     "prepush": "yarn test"
   },
   "scripts-info": {
