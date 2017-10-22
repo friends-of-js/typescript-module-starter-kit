@@ -1,0 +1,7 @@
+.idea
+yarn-error.log
+/node_modules
+/bundle-analysis
+/.nyc_output
+/declarations
+/coverage
