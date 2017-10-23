@@ -43,7 +43,7 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "web-storage-api": [
+      "typescript-module-starter-kit": [
         "src/index.ts"
       ]
     }
