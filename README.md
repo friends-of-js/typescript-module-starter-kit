@@ -7,6 +7,7 @@
 * Use [tslint](https://palantir.github.io/tslint/) for linting code.
 * Use [webpack](https://webpack.js.org/) for generating browsers bundle.
 * Use [mocha](https://mochajs.org/) and [chai](http://chaijs.com/) for testing, support code coverage
+* Use [Travis-ci](https://travis-ci.org/) for continuous integration
 * Use [Commitizen](https://github.com/commitizen/cz-cli) and [Husky](https://github.com/typicode/husky) for git commits
 
 ## Getting started
