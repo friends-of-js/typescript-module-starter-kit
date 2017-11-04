@@ -24,7 +24,7 @@
     "test:watch": "NODE_ENV=testing karma start build/karma.config.ts",
     "coverage": "NODE_ENV=testing nyc karma start build/karma.config.ts --single-run && yarn coverage:show",
     "coverage:show": "opn coverage/html/index.html",
-    "doc": "typedoc src --mode modules --target es6 --mode file --theme minimal --out doc-ts && opn doc-ts/index.html",
+    "docs": "typedoc src --mode modules --target es6 --mode file --theme minimal --out docs && opn docs/index.html",
     "commit": "git-cz",
     "commitmsg": "validate-commit-msg",
     "prepush": "yarn test",
@@ -45,7 +45,8 @@
     "test:ts": "Run tests for typescript",
     "test:ts:watch": "Watching typescript files for changes and run specified tests",
     "coverage": "Check coverage for typescript files",
-    "coverage:show": "Open typescript coverage report in browser"
+    "coverage:show": "Open typescript coverage report in browser",
+    "docs": "Build documentation"
   },
   "config": {
     "commitizen": {
