@@ -24,7 +24,7 @@
     "test:watch": "NODE_ENV=testing karma start build/karma.config.ts",
     "coverage": "NODE_ENV=testing nyc karma start build/karma.config.ts --single-run && yarn coverage:show",
     "coverage:show": "opn coverage/html/index.html",
-    "docs": "typedoc src --mode modules --target es6 --mode file --theme minimal --out docs && opn docs/index.html",
+    "docs": "typedoc src --mode modules --target es6 --mode file --theme default --out docs && opn docs/index.html",
     "docs:publish": "ts-node build/tools/gh-pages-publish.ts",
     "commit": "git-cz",
     "commitmsg": "validate-commit-msg",
