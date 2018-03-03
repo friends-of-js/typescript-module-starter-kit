@@ -13,7 +13,7 @@
 ## Getting started
 
 ```bash
-git clone git@github.com:noldors/typescript-module-starter-kit.git
+git clone git@github.com:friends-of-js/typescript-module-starter-kit.git
 cd typescript-module-starter-kit
 yarn install
 ```
