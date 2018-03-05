@@ -62,10 +62,6 @@
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
-    },
-    "validate-commit-msg": {
-      "types": "conventional-commit-types",
-      "helpMessage": "Use \"yarn commit\" instead, we use conventional-changelog format :) (https://github.com/commitizen/cz-cli)"
     }
   },
   "husky": {
@@ -119,7 +115,6 @@
     "tslint-config-standard": "^7.0.0",
     "typedoc": "^0.10.0",
     "typescript": "^2.7.2",
-    "validate-commit-msg": "^2.14.0",
     "webpack": "^3.11.0",
     "webpack-build-notifier": "^0.1.22",
     "webpack-bundle-analyzer": "^2.10.0",
